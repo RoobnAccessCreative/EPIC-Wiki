@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1 id="header">EPIC Tracklist</h1>
+
+    <p class="text">EPIC is broken down into individual 'sagas', containing 3-5 songs each, that are similar to chapters.<br>The current tracklist is as follows:</p>
+
+    <h2 class="act-header">Act 1</h2>
+
+    {% for saga in act1 %}
+
+        <h3 class="saga-header">The {{saga}} Saga</h3>
+
+        {% for song in act1[saga] %}
+            <div class="song">
+
+                <img class="song-cover" src="{{url_for('static', filename=act1[saga][song]['cover'])}}">
+
+                <div class="song-info">
+
+                    <p class="name"><b>{{act1[saga][song]['name']}}</b></p>
+                    <p class="song-info">{{act1[saga][song]['artists']}}</p>
+                    <p class="song-info">{{act1[saga][song]['length']}}</p>
+
+                </div>
+
+            </div>
+        {% endfor %}
+
+    {% endfor %}
+
+    <h2 class="act-header">Act 2</h2>
+
+    {% for saga in act2 %}
+
+        <h3 class="saga-header">The {{saga}} Saga</h3>
+
+        {% for song in act2[saga] %}
+            <div class="song">
+
+                <img class="song-cover" src="{{url_for('static', filename=act2[saga][song]['cover'])}}">
+
+                <div class="song-info">
+
+                    <p class="name"><b>{{act2[saga][song]['name']}}</b></p>
+                    <p class="song-text">{{act2[saga][song]['artists']}}</p>
+                    <p class="song-text">{{act2[saga][song]['length']}}</p>
+
+                </div>
+                
+            </div>
+        {% endfor %}
+
+    {% endfor %}
+
+{% endblock %}

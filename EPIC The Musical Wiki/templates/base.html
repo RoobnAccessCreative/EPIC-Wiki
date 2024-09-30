@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EPIC: The Musical</title>
+        <meta charset="UTF-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js" integrity="sha512-Xo0Jh8MsOn72LGV8kU5LsclG7SUzJsWGhXbWcYs2MAmChkQzwiW/yTQwdJ8w6UA9C6EVG18GHb/TrYpYCjyAQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css" integrity="sha512-KXol4x3sVoO+8ZsWPFI/r5KBVB/ssCGB5tsv2nVOKwLg33wTFP3fmnXa47FdSVIshVTgsYk/1734xSk9aFIa4A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="{{ url_for( 'static', filename='style.css') }}">
+        <script src="{{ url_for( 'static', filename='script.js') }}" defer></script>
+
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='/photos/favicon.png') }}"/>
+    </head>
+    <body>
+        <img id="banner" src="{{ url_for('static', filename='/photos/covers-banner.jpg') }}">
+        <div id="wrapper">
+            <div class="ui pointing menu">
+                {% if item[0] == "active" %}
+                    <a class="active item" href="/">
+                        Home
+                    </a>
+                {% else %}
+                    <a class="item" href="/">
+                        Home
+                    </a>
+                {% endif %}
+
+                {% if item[2] == "active" %}
+                    <a class="active item" href="/songlist">
+                        Tracklist
+                    </a>
+                {% else %}
+                    <a class="item" href="/songlist">   
+                        Tracklist
+                    </a>
+                {% endif %} 
+
+                {% if item[1] == "active" %}
+                    <a class="active item" href="/artists">
+                        Artists
+                    </a>
+                {% else %}
+                    <a class="item" href="/artists">       
+                        Artists
+                    </a>
+                {% endif %} 
+            </div>
+            <div class="content">
+                
+                {% block content %} {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>

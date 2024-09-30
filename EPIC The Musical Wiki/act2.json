@@ -1,0 +1,67 @@
+{
+    "Thunder": {
+        "21": {
+            "cover": "photos/sagas/Thunder.png",
+            "name": "Suffering",
+            "artists": "Jorge Rivera-Herrans, Anna Lea",
+            "length": "2:30"
+        },
+        "22": {
+            "cover": "photos/sagas/Thunder.png",
+            "name": "Different Beast",
+            "artists": "Jorge Rivera-Herrans, Anna Lea, Cast of EPIC: The Musical",
+            "length": "3:30"
+        },
+        "23": {
+            "cover": "photos/sagas/Thunder.png",
+            "name": "Scylla",
+            "artists": "Jorge Rivera-Herrans, KJ Burkhauser, Armando Julián, Cast of EPIC: The Musical",
+            "length": "2:54"
+        },
+        "24": {
+            "cover": "photos/sagas/Thunder.png",
+            "name": "Mutiny",
+            "artists": "Jorge Rivera-Herrans, Armando Julián, Cast of EPIC: The Musical",
+            "length": "4:53"
+        },
+        "25": {
+            "cover": "photos/sagas/Thunder.png",
+            "name": "Thunder Bringer",
+            "artists": "Jorge Rivera-Herrans, Luke Holt, Anna Lea, Armando Julián, Cast of EPIC: The Musical",
+            "length": "4:09"
+        }
+    },
+    "Wisdom": {
+        "26": {
+            "cover": "photos/sagas/Wisdom.png",
+            "name": "Legendary",
+            "artists": "Jorge Rivera-Herrans, Miguel Veloso, Ayron Alexander, Cast of EPIC: The Musical",
+            "length": "3:14"
+        },
+        "27": {
+            "cover": "photos/sagas/Wisdom.png",
+            "name": "Little Wolf",
+            "artists": "Jorge Rivera-Herrans, Ayron Alexander, Teagan Earley, Miguel Veloso, Cast of EPIC: The Musical",
+            "length": "3:13"
+        },
+        "28": {
+            "cover": "photos/sagas/Wisdom.png",
+            "name": "We'll Be Fine",
+            "artists": "Jorge Rivera-Herrans, Teagan Earley, Miguel Veloso",
+            "length": "2:05"
+        },
+        "29": {
+            "cover": "photos/sagas/Wisdom.png",
+            "name": "Love in Paradise",
+            "artists": "Jorge Rivera-Herrans, Barbara Wangui, Teagan Earley, Kira Stone, Steven Rodriguez, Talya Sindel, Mason Olshavsky, KJ Burkhauser, Armando Julián, Steven Dookie",
+            "length": "4:10"
+        },
+        "30": {
+            "cover": "photos/sagas/Wisdom.png",
+            "name": "God Games",
+            "artists": "Jorge Rivera-Herrans, Teagan Earley, Luke Holt, Brandon McInnis, Mike Rivera, Janani K.Jha, Earle Gresham Jr., POESY, Cast of EPIC: The Musical",
+            "length": "5:19"
+        }
+    }
+}
+

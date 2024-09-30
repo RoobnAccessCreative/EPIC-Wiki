@@ -1,0 +1,133 @@
+  {
+    "Troy": {
+        "1": {
+            "cover": "photos/sagas/Troy.png",
+            "name": "The Horse and the Infant",
+            "artists": "Jorge Rivera-Herrans, Luke Holt, Cast of EPIC: The Musical",
+            "length": "3:54"
+        },
+        "2": {
+            "cover": "photos/sagas/Troy.png",
+            "name": "Just a Man",
+            "artists": "Jorge Rivera-Herrans, Cast of EPIC: The Musical",
+            "length": "2:28"
+        },
+        "3": {
+            "cover": "photos/sagas/Troy.png",
+            "name": "Full Speed Ahead",
+            "artists": "Jorge Rivera-Herrans, Armando Julián, Steven Dookie, Cast of EPIC: The Musical",
+            "length": "2:59"
+        },
+        "4": {
+            "cover":"photos/sagas/Troy.png",
+            "name": "Open Arms",
+            "artists": "Jorge Rivera-Herrans, Steven Dookie, Cast of EPIC: The Musical",
+            "length": "3:18"
+        },
+        "5": {
+            "cover": "photos/sagas/Troy.png",
+            "name": "Warrior of the Mind",
+            "artists": "Jorge Rivera-Herrans, Teagan Earley, Cast of EPIC: The Musical",
+            "length": "3:28"
+        }
+    },
+    "Cyclops": {
+        "6": {
+            "cover": "photos/sagas/Cyclops.png",
+            "name": "Polyphemus",
+            "artists": "Jorge Rivera-Herrans, Armando Julián, Steven Dookie, Cast of EPIC: The Musical",
+            "length": "3:36"
+        },
+        "7": {
+            "cover": "photos/sagas/Cyclops.png",
+            "name": "Survive",
+            "artists": "Jorge Rivera-Herrans, Steven Dookie, Cast of EPIC: The Musical",
+            "length": "3:14"
+        },
+        "8": {
+            "cover": "photos/sagas/Cyclops.png",
+            "name": "Remember Them",
+            "artists": "Jorge Rivera-Herrans, Armando Julián, Teagan Earley, Cast of EPIC: The Musical",
+            "length": "4:08"
+        },
+        "9": {
+            "cover": "photos/sagas/Cyclops.png",
+            "name": "My Goodbye",
+            "artists": "Jorge Rivera-Herrans, Teagan Earley, Cast of EPIC: The Musical",
+            "length": "3:17"
+        }
+    },
+    "Ocean": {
+        "10": {
+            "cover": "photos/sagas/Ocean.png",
+            "name": "Storm",
+            "artists": "Jorge Rivera-Herrans, Armando Julián, Cast of EPIC: The Musical",
+            "length": "2:42"
+        },
+        "11": {
+            "cover": "photos/sagas/Ocean.png",
+            "name": "Luck Runs Out",
+            "artists": "Jorge Rivera-Herrans, Armando Julián, Cast of EPIC: The Musical",
+            "length": "3:01"
+        },
+        "12": {
+            "cover": "photos/sagas/Ocean.png",
+            "name": "Keep Your Friends Close",
+            "artists": "Jorge Rivera-Herrans, Armando Julián, Kira Stone, Cast of EPIC: The Musical",
+            "length": "4:07"
+        },
+        "13": {
+            "cover": "photos/sagas/Ocean.png",
+            "name": "Ruthlessness",
+            "artists": "Jorge Rivera-Herrans, Steven Rodriguez, Cast of EPIC: The Musical",
+            "length": "4:22"
+        }
+    },
+    "Circe": {
+        "14": {
+            "cover": "photos/sagas/Circe.png",
+            "name": "Puppeteer",
+            "artists": "Jorge Rivera-Herrans, Armando Julián, Talya Sindel, Cast of EPIC: The Musical",
+            "length": "4:09"
+        },
+        "15": {
+            "cover": "photos/sagas/Circe.png",
+            "name": "Wouldn't You Like",
+            "artists": "Jorge Rivera-Herrans, TROY, Cast of EPIC: The Musical",
+            "length": "2:54"
+        },
+        "16": {
+            "cover": "photos/sagas/Circe.png",
+            "name": "Done For",
+            "artists": "Jorge Rivera-Herrans, Talya Sindel, Cast of EPIC: The Musical",
+            "length": "2:27"
+        },
+        "17": {
+            "cover": "photos/sagas/Circe.png",
+            "name": "There Are Other Ways",
+            "artists": "Jorge Rivera-Herrans, Talya Sindel, Cast of EPIC: The Musical",
+            "length": "2:27"
+        }
+    },
+    "Underworld": {
+        "18": {
+            "cover": "photos/sagas/Underworld.png",
+            "name": "The Underworld",
+            "artists": "Jorge Rivera-Herrans, Steven Dookie, Wanda Herrans, Cast of EPIC: The Musical",
+            "length": "4:16"
+        },
+        "19": {
+            "cover": "photos/sagas/Underworld.png",
+            "name": "No Longer You",
+            "artists": "Jorge Rivera-Herrans, Mason Olshavsky, Cast of EPIC: The Musical",
+            "length": "2:47"
+        },
+        "20": {
+            "cover": "photos/sagas/Underworld.png",
+            "name": "Monster",
+            "artists": "Jorge Rivera-Herrans, Cast of EPIC: The Musical",
+            "length": "3:38"
+        }
+    }
+}
+

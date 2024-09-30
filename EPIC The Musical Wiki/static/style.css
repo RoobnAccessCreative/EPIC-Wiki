@@ -1,0 +1,71 @@
+body, html{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0e2e61;
+    padding-top: 0%;
+    color: white;
+}
+
+html, #wrapper{
+    background-image: linear-gradient(#152b66, #0e2e61, #144259);
+    
+}
+
+
+.content{
+    padding-left: 20px;
+}
+
+.name{
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+.song-cover{
+    height: 150px;
+    border-radius: 8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.song{
+    display: flex;
+    padding-bottom: 25px;
+}
+.song-info{
+    padding-left: 15px;
+}
+
+.cast-image{
+    height: 300px;
+    padding-right: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+}
+
+.cast{
+    padding-bottom: 30px;
+}
+
+.cast-member{
+    margin: 5px;
+}
+
+#container{
+    padding-left: 30px;
+}
+
+#header{
+    padding-bottom: 20px;
+}
+
+#banner{
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+   
+}
