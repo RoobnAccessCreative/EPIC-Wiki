@@ -33,5 +33,5 @@ def songlist():
     return render_template("songlist.html", act1=act1, act2=act2, item=item_list)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
      
